@@ -38,13 +38,20 @@ To run this project, you'll need:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/interactive-3d-webgl.git
+   git clone https://github.com/nonzi19/interactive-3d-webgl.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd interactive-3d-webgl
    ```
-3. Open the `index.html` file in your web browser.
+3. Open the `Project F1.html` file in your web browser:
+   - You can simply double-click the file to open it in your default browser.
+   - Make sure the file js. also in same file to open it
+   - Alternatively, you can serve it locally using an HTTP server. For example:
+     ```bash
+     python -m http.server
+     ```
+     Then, navigate to `http://localhost:8000/Project%20F1.html` in your browser.
 
 ### Usage
 1. Use the sliders to control transformations and camera movement.
@@ -59,8 +66,7 @@ To run this project, you'll need:
 - **WebGL**: To handle the rendering pipeline for the 3D scene.
 
 ## Screenshot
-![image](https://github.com/user-attachments/assets/17caccfb-255b-45ac-bf03-28ccc45991fe)
-
+![image](https://github.com/user-attachments/assets/83d890bc-50a3-40e1-ad12-e8c421d6d736)
 
 ## Potential Applications
 - Educational tools for teaching 3D transformations and WebGL programming.
@@ -72,7 +78,6 @@ To run this project, you'll need:
 - Implement lighting options (e.g., directional, point, or spotlights).
 - Include options for scaling and rotation transformations.
 - Support for exporting the 3D scene as a file.
-
 
 ## Acknowledgments
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API) for WebGL documentation.
